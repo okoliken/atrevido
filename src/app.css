@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    background-color:#191717;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.active .nav-indicator{
+    margin-right: 1rem;
+    height: 1px;
+    width: 4rem;
+    transition-property: none;
+    background-color: rgb(226 232 240) !important;
+}
+
+
+.active .nav-text {
+    transition-property: none;
+    color: rgb(226 232 240) !important;
+}
