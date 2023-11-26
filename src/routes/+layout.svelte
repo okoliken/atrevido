@@ -58,7 +58,7 @@
           <h2
             class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"
           >
-            Frontend developer
+            Frontend Engineer 
           </h2>
           <p class="mt-4 max-w-xs leading-normal text-gray-400 font-light">
             I Build Inclusive and Accessible Web Experiences, One Line of Code
