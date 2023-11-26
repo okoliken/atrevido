@@ -21,7 +21,7 @@ export const load: PageLoad = () => {
 			url: 'https://fundall.io',
 			description:
 				'As a Frontend Developer at Fundall, a fintech firm specializing in financial services for individuals and businesses, I have significantly enhanced user experiences by designing and deploying web application features. I have also been instrumental in resolving technical issues, resulting in a notable reduction in user-reported problems. Furthermore, I successfully led the production launch of crucial features for two prominent corporate clients, thereby augmenting their financial capabilities.',
-			stacks: ['JavaScript', 'Nuxt 2', 'Vuetify', 'SCSS', 'Trello', 'Click up']
+			stacks: ['JavaScript', 'Nuxt 2', 'Vuetify', 'SCSS', 'Trello', 'Click up', "Figma"]
 		},
 		{
 			duration: 'Feb - May 2023',
@@ -30,7 +30,7 @@ export const load: PageLoad = () => {
 			url: 'https://www.softwebdigital.com',
 			description:
 				"Enhanced Coded Events website, introducing client-aligned functionalities. Integrated Flutterwave payment, fixing platform issues. Optimized KBSTECH's admin platform, improving business operations by 50%. Increased revenue by 47% by understanding user needs.",
-			stacks: ['JavaScript', 'TypeScript', 'Vue 3', 'Vuetify', 'SCSS']
+			stacks: ['JavaScript', 'TypeScript', 'Vue 3', 'Vuetify', 'SCSS', "Figma"]
 		},
 		{
 			duration: 'Oct 2022 - 2023',
@@ -39,7 +39,7 @@ export const load: PageLoad = () => {
 			url: 'https://scelloo.com',
 			description:
 				'At Scelloo, a technology company dedicated to empowering entrepreneurs and organizations, I collaborated with my team and QA testers to consistently meet project deadlines using Agile tools like Jira',
-			stacks: ['JavaScript', 'Vue 2', 'Tailwind', 'Jira']
+			stacks: ['JavaScript', 'Vue 2', 'Tailwind', 'Jira', "Figma"]
 		}
 	];
 	const projects: Project[] = [
@@ -67,7 +67,7 @@ export const load: PageLoad = () => {
 			url: 'https://eaaml.emergingafricagroup.com/',
 			description:
 			'We are with you every step of the way in building the financial freedom and wealth you aspire to',
-			stacks: ['Vue 3', 'Typescript', 'Tailwind css' ,'Pinia'],
+			stacks: ['Nuxt2', 'JavaScript', 'Vuetify' ,'Vuex', "API"],
 			image:EWA
 		},
 		

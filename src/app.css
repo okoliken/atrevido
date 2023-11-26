@@ -12,8 +12,9 @@ body {
 
 
 html {
+    scroll-snap-type: y proximity;
     scroll-behavior: smooth;
-}
+  }
 
 
 .active .nav-indicator{
