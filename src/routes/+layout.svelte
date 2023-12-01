@@ -1,8 +1,28 @@
 <script lang="ts">
   import "../app.css";
+  import { onMount } from "svelte";
   import Icon from "@iconify/svelte";
 
-  const onScroll = (e: Event) => {
+  const socialLinks = [
+    {
+      url: "https://github.com/okoliken",
+      icon: "fe:github",
+    },
+    {
+      url: "https://twitter.com/jeff_okoli",
+      icon: "mdi:twitter",
+    },
+    {
+      url: "https://www.instagram.com/jeffokoli.1",
+      icon: "mdi:instagram",
+    },
+    {
+      url: "https://www.linkedin.com/in/okoli-jeff-0b1719224",
+      icon: "uil:linkedin",
+    },
+  ];
+
+  const onScroll = () => {
     const sections = document.querySelectorAll(".scroll-section");
 
     // Loop through each section and check if it is in the viewport
@@ -29,6 +49,10 @@
       }
     });
   };
+
+  onMount(() => {
+    onScroll();
+  });
 </script>
 
 <svelte:head>
@@ -58,7 +82,7 @@
           <h2
             class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"
           >
-            Frontend Engineer 
+            Frontend Engineer
           </h2>
           <p class="mt-4 max-w-xs leading-normal text-gray-400 font-light">
             I Build Inclusive and Accessible Web Experiences, One Line of Code
@@ -67,79 +91,34 @@
 
           <nav class="nav hidden lg:block" aria-label="In-page jump links">
             <ul class="mt-16 w-max">
-              <li>
-                <a class="group flex items-center py-3" href="#about"
-                  ><span
-                    class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
-                  /><span
-                    class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
-                    >About</span
-                  ></a
-                >
-              </li>
-              <li>
-                <a class="group flex items-center py-3" href="#experience"
-                  ><span
-                    class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
-                  /><span
-                    class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
-                    >Experience</span
-                  ></a
-                >
-              </li>
-              <li>
-                <a class="group flex items-center py-3" href="#projects"
-                  ><span
-                    class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
-                  /><span
-                    class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
-                    >Projects</span
-                  ></a
-                >
-              </li>
+              {#each ["about", "experience", "projects"] as links}
+                <li>
+                  <a class="group flex items-center py-3" href="#{links}"
+                    ><span
+                      class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
+                    /><span
+                      class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+                      >{links}</span
+                    ></a
+                  >
+                </li>
+              {/each}
             </ul>
           </nav>
         </div>
         <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
-          <li class="mr-5 text-xs">
-            <a
-              class="block text-slate-400 hover:text-slate-200"
-              href="https://github.com/okoliken"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon class="text-[1.7rem]" icon="fe:github" />
-            </a>
-          </li>
-          <li class="mr-5 text-xs">
-            <a
-              class="block text-slate-400 hover:text-slate-200"
-              href="https://twitter.com/jeff_okoli"
-              target="_blank"
-              rel="noreferrer"
-              ><Icon class="text-[1.7rem]" icon="mdi:twitter" />
-            </a>
-          </li>
-          <li class="mr-5 text-xs">
-            <a
-              class="block text-slate-400 hover:text-slate-200"
-              href="https://www.instagram.com/jeffokoli.1"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon class="text-[1.7rem]" icon="mdi:instagram" />
-            </a>
-          </li>
-          <li class="mr-5 text-xs">
-            <a
-              class="block text-slate-400 hover:text-slate-200"
-              href="https://www.linkedin.com/in/okoli-jeff-0b1719224"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon class="text-[1.7rem]" icon="uil:linkedin" />
-            </a>
-          </li>
+          {#each socialLinks as socials}
+            <li class="mr-5 text-xs">
+              <a
+                class="block text-slate-400 hover:text-slate-200"
+                href={socials.url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icon class="text-[1.7rem]" icon={socials.icon} />
+              </a>
+            </li>
+          {/each}
         </ul>
       </header>
 
