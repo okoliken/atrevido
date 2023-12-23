@@ -82,11 +82,11 @@
           <h2
             class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"
           >
-            Frontend Engineer
+            Frontend Engineer :)
           </h2>
           <p class="mt-4 max-w-xs leading-normal text-gray-400 font-light">
-            I Build Inclusive and Accessible Web Experiences, One Line of Code
-            at a Time.
+            Specializing in Vue.js & Nuxt.js | Crafting Inclusive and Accessible
+            Web Experience, One Line of Code at a Time.
           </p>
 
           <nav class="nav hidden lg:block" aria-label="In-page jump links">

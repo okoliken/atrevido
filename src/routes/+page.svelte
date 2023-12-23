@@ -14,11 +14,9 @@
   aria-label="Work experience"
 >
   <div
-    class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+    class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-600/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:my-7 lg:w-full lg:static lg:rounded lg:transform lg:translate-x-[40px]"
   >
-    <h2
-      class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only"
-    >
+    <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200">
       Experience
     </h2>
   </div>
@@ -68,11 +66,9 @@
   aria-label="Selected projects"
 >
   <div
-    class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+    class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-600/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:my-7 lg:w-full lg:static lg:rounded lg:transform lg:translate-x-[40px]"
   >
-    <h2
-      class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only"
-    >
+    <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200">
       Collaborative Project Contributions
     </h2>
   </div>
@@ -85,11 +81,9 @@
 
   <div class="lg:pt-28">
     <div
-      class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+      class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-600/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:my-7 lg:w-full lg:static lg:transform lg:translate-x-[40px] lg:rounded"
     >
-      <h2
-        class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only"
-      >
+      <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200">
         Personal Projects
       </h2>
     </div>
