@@ -156,7 +156,7 @@ export const workHistory: Work[] = [
     {
       title: "Audiophile - e-commerce website",
       growth: [],
-      url: "https://dev-links-wine.vercel.app/",
+      url: "https://audiophile-tawny-tau.vercel.app/",
       description:
         "A multi-page e-commerce website from a Frontend Mentor challenge, showcasing full responsiveness across devices. Implemented a functional cart system leveraging browser local storage, efficient data fetching for products display, and utilized reusable components for scalability and efficiency.",
       stacks: [
