@@ -1,6 +1,7 @@
 <script lang="ts">
   import Arrow from "$lib/components/Arrow.svelte";
   import type { Project } from "$lib/types";
+  import Stack from "./Stack.svelte";
   export let projects: Project;
 
   const { title, url, description, image, growth, stacks } = projects;
@@ -8,10 +9,10 @@
 
 <li class="mb-12">
   <div
-    class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-80"
+    class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-40"
   >
     <div
-      class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-700/60 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+      class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-600/60 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
     />
     <div class="z-10 sm:order-2 sm:col-span-6">
       <h3 class="font-medium leading-snug text-slate-200">
@@ -31,7 +32,7 @@
           ></a
         >
       </h3>
-      <p class="mt-2 text-sm leading-6 text-gray-400 font-light text-justify">
+      <p class="mt-2 text-sm leading-6 text-gray-400 font-medium text-justify">
         {description}
       </p>
 
@@ -59,13 +60,7 @@
 
       <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
         {#each stacks as stack}
-          <li class="mr-1.5 mt-2">
-            <div
-              class="flex items-center rounded-full bg-slate-400/10 px-3 py-1 text-xs font-medium leading-5 text-slate-300"
-            >
-              {stack}
-            </div>
-          </li>
+          <Stack {stack} />
         {/each}
       </ul>
     </div>

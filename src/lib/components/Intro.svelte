@@ -1,23 +1,24 @@
 <script lang="ts">
+  import Stack from "./Stack.svelte";
   let stacks = [
     "JavaScript",
-    "APIs",
-    "Figma",
+    "TypeScript",
     "Vue.js",
     "Nuxt.js",
-    "TypeScript",
-    "React",
-    "Astro",
-    "Svelte.js",
-    "SvelteKit",
-    "AppWrite",
-    "Plugins",
-    "Supabase",
     "Pinia",
     "Vuex",
-    "Python",
-    "TailwindCss",
-    "Vuetify",
+    "Jira",
+    "React",
+    "Styled Components",
+    "Farmer Motion",
+    "Tanstack Query",
+    "Svelte",
+    "SvelteKit",
+    "AppWrite",
+    "Supabase",
+    "Tailwind-Css",
+    "Figma",
+    "Redux ToolKit",
   ];
 </script>
 
@@ -36,26 +37,20 @@
     </h2>
   </div>
   <div>
-    <p class="mb-4 text-justify leading-6 text-gray-400 font-light w-full">
-      Tech enthusiast turned frontend maestro! From Python to Vue, I've crafted
-      sleek interfaces with a passion for perfection. Secured my first role in
-      just six months. Let's connect and bring your projects to life with
-      excellence in user experiences!
+    <p class="mb-4 text-justify leading-6 text-gray-400 font-medium w-full">
+      Seasoned Front-end Engineer with 3+ years in Vue.js and React.js. Skilled
+      in creating responsive, user-centric web applications. Adept in modern
+      development practices, with a focus on quality and efficiency. Committed
+      to ongoing learning and collaboration to drive project success.
     </p>
 
     <p class="font-medium leading-snug text-slate-200 pt-4">
-      Below are a list of my tools and languages
+      Below are a list of my tools and language(s)
     </p>
 
     <ul class="mt-2 flex flex-wrap" aria-label="Tools and Technologies used">
       {#each stacks as stack}
-        <li class="mr-1.5 mt-2">
-          <div
-            class="flex items-center rounded-full bg-slate-400/10 px-3 py-1 text-xs font-medium leading-5 text-slate-300"
-          >
-            {stack}
-          </div>
-        </li>
+        <Stack {stack} />
       {/each}
     </ul>
   </div>

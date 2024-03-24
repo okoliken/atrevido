@@ -10,7 +10,7 @@
     },
     {
       url: "https://twitter.com/jeff_okoli",
-      icon: "mdi:twitter",
+      icon: "fa6-brands:x-twitter",
     },
     {
       url: "https://www.instagram.com/jeffokoli.1",
@@ -84,9 +84,9 @@
           >
             Frontend Engineer :)
           </h2>
-          <p class="mt-4 max-w-xs leading-normal text-gray-400 font-light">
-            Specializing in Vue.js & Nuxt.js | Crafting Inclusive and Accessible
-            Web Experience, One Line of Code at a Time.
+          <p class="mt-4 max-w-xs leading-normal text-gray-400 font-medium">
+            Crafting Inclusive and Accessible Web Experience, One Line of Code
+            at a Time.
           </p>
 
           <nav class="nav hidden lg:block" aria-label="In-page jump links">
@@ -127,33 +127,42 @@
 
         <footer class="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
           <p>
-            Built with<!-- -->
+            Inspired by
+            <a
+              class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
+              href="https://brittanychiang.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Brittany chiang's portfolio.
+            </a>
+            Built with
             <a
               href="https://kit.svelte.dev/"
               class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
               target="_blank"
               rel="noreferrer">SvelteKit</a
             >
-            <!-- -->and<!-- -->
+            and
             <a
               href="https://tailwindcss.com/"
               class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
               target="_blank"
               rel="noreferrer">Tailwind CSS</a
-            >, deployed with<!-- -->
+            >, deployed with
             <a
               href="https://vercel.com/"
               class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
               target="_blank"
               rel="noreferrer">Vercel</a
-            >. All text is set in the<!-- -->
+            >. All text is set in the
             <a
               href="https://fonts.google.com/specimen/Raleway"
               class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
               target="_blank"
-              rel="noreferrer">Raleway</a
+              rel="noreferrer">Work Sans</a
             >
-            <!-- -->typeface.
+            typeface.
           </p>
         </footer>
       </main>
