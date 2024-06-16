@@ -12,7 +12,7 @@
     class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-40"
   >
     <div
-      class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-600/60 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+      class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block"
     />
     <div class="z-10 sm:order-2 sm:col-span-6">
       <h3 class="font-medium leading-snug text-slate-200">
@@ -32,7 +32,7 @@
           ></a
         >
       </h3>
-      <p class="mt-2 text-sm leading-6 text-gray-400 font-medium text-justify">
+      <p class="mt-2 text-sm leading-6 text-gray-400 font-medium text-left">
         {description}
       </p>
 
@@ -68,10 +68,9 @@
       alt={title}
       loading="lazy"
       width="200"
-      height="48"
+      height="85"
       decoding="async"
       class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-      style="color:transparent"
       srcset={image}
       src={image}
     />

@@ -55,6 +55,7 @@
 
   <div class="lg:pt-16">
     <div
+    id="personalProjects"
       class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-600/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:my-7 lg:w-full lg:static lg:transform lg:translate-x-[40px] lg:rounded"
     >
       <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200">

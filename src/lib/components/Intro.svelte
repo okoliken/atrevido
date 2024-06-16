@@ -7,18 +7,17 @@
     "Nuxt.js",
     "Pinia",
     "Vuex",
-    "Jira",
     "React",
+    "Redux ToolKit",
     "Styled Components",
+    "Tailwind-Css",
     "Farmer Motion",
     "Tanstack Query",
     "Svelte",
-    "SvelteKit",
     "AppWrite",
     "Supabase",
-    "Tailwind-Css",
     "Figma",
-    "Redux ToolKit",
+    "Jira",
   ];
 </script>
 
@@ -37,7 +36,7 @@
     </h2>
   </div>
   <div>
-    <p class="mb-4 text-justify leading-6 text-gray-400 font-medium w-full">
+    <p class="mb-4 text-left leading-6 text-gray-400 font-medium w-full">
       Seasoned Front-end Engineer with 3+ years in Vue.js and React.js. Skilled
       in creating responsive, user-centric web applications. Adept in modern
       development practices, with a focus on quality and efficiency. Committed

@@ -43,7 +43,7 @@
           >
         </div>
       </h3>
-      <p class="mt-2 text-sm leading-6 text-gray-400 font-medium text-justify">
+      <p class="mt-2 text-sm leading-6 text-gray-400 font-medium text-left">
         {description}
       </p>
       <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
