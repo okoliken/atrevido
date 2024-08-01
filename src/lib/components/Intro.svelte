@@ -36,14 +36,14 @@
     </h2>
   </div>
   <div>
-    <p class="mb-4 text-left leading-6 text-gray-400 font-medium w-full">
+    <p class="mb-4 text-left leading-6 text-gray-400 font-normal w-full">
       Seasoned Front-end Engineer with 3+ years in Vue.js and React.js. Skilled
       in creating responsive, user-centric web applications. Adept in modern
       development practices, with a focus on quality and efficiency. Committed
       to ongoing learning and collaboration to drive project success.
     </p>
 
-    <p class="font-medium leading-snug text-slate-200 pt-4">
+    <p class="font-semibold leading-snug text-slate-200 pt-4">
       Below are a list of my tools and language(s)
     </p>
 

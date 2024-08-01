@@ -1,7 +1,7 @@
 <a
   class="inline-flex items-center font-semibold leading-tight text-slate-200 group"
   aria-label="View Full Résumé"
-  href="https://www.canva.com/design/DAFxx9lPwzA/ODiofLQjEMVBmHsJnkDHig/view?utm_content=DAFxx9lPwzA&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+  href="https://www.canva.com/design/DAGDfhHf23k/q8_Q-5gEnAodX6bqF_BGfQ/edit?utm_content=DAGDfhHf23k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   target="_blank"
   ><span
     ><span

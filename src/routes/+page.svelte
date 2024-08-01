@@ -39,27 +39,27 @@
   class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 scroll-section"
   aria-label="Selected projects"
 >
-  <div
+  <!-- <div
     class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-600/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:my-7 lg:w-full lg:static lg:rounded lg:transform lg:translate-x-[40px]"
   >
     <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200">
       Collaborative Project Contributions
     </h2>
-  </div>
+  </div> -->
 
-  <ProjectContainer>
+  <!-- <ProjectContainer>
     {#each data.projects as projects}
       <Projects {projects} />
     {/each}
-  </ProjectContainer>
+  </ProjectContainer> -->
 
-  <div class="lg:pt-16">
+  <div>
     <div
     id="personalProjects"
       class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-600/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:my-7 lg:w-full lg:static lg:transform lg:translate-x-[40px] lg:rounded"
     >
       <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200">
-        Personal Projects
+        Projects
       </h2>
     </div>
 

@@ -15,9 +15,9 @@
       class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block"
     />
     <div class="z-10 sm:order-2 sm:col-span-6">
-      <h3 class="font-medium leading-snug text-slate-200">
+      <h3 class="font-normal leading-snug text-slate-200">
         <a
-          class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-slate-300 group/link text-base"
+          class="inline-flex items-baseline font-semibold leading-tight text-slate-200 hover:text-slate-300 group/link text-base"
           href={url}
           target="_blank"
           rel="noreferrer"
@@ -32,13 +32,13 @@
           ></a
         >
       </h3>
-      <p class="mt-2 text-sm leading-6 text-gray-400 font-medium text-left">
+      <p class="mt-2 text-sm leading-6 text-gray-400 font-normal text-left">
         {description}
       </p>
 
       {#if growth?.length}
         <a
-          class="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+          class="relative mt-2 inline-flex items-center text-sm font-normal text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
           href="https://github.com/bchiang7/spotify-profile"
           target="_blank"
           rel="noreferrer"

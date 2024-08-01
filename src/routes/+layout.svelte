@@ -56,20 +56,21 @@
 </script>
 
 <svelte:head>
-  <title>Okoli Jahbuchim Jeff</title>
   <meta
-    name="description"
-    content="I Build Inclusive and Accessible Web Experiences, One Line of Code at a Time."
+  name="description"
+  content="I Build Inclusive and Accessible Web Experiences, One Line of Code at a Time."
   />
+  <meta content="Hello I am Jeff, I am a Frontend Software Developer" name="description">
+  <title>Okoli Jahbuchim Jeff</title>
 </svelte:head>
 
 <svelte:window on:scroll={onScroll} />
 
 <div class="relative">
   <div
-    class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-WorkSans md:px-12 md:py-20 lg:px-24 lg:py-0"
+    class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-Poppins md:px-12 md:py-20 lg:px-24 lg:py-0"
   >
-    <div class="lg:flex lg:justify-between lg:gap-4 font-WorkSans">
+    <div class="lg:flex lg:justify-between lg:gap-4 font-Poppins">
       <header
         class="lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24"
       >
@@ -80,11 +81,11 @@
             Okoli Jahbuchim
           </h1>
           <h2
-            class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"
+            class="mt-3 text-lg font-normal tracking-tight text-slate-200 sm:text-xl"
           >
             Frontend Engineer :)
           </h2>
-          <p class="mt-4 max-w-xs leading-normal text-gray-400 font-medium">
+          <p class="mt-4 max-w-xs leading-normal text-gray-400 font-normal">
             Crafting Inclusive and Accessible Web Experience, One Line of Code
             at a Time.
           </p>
@@ -129,7 +130,7 @@
           <p>
             Inspired by
             <a
-              class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
+              class="font-normal text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
               href="https://brittanychiang.com/"
               target="_blank"
               rel="noreferrer"
@@ -139,26 +140,26 @@
             Built with
             <a
               href="https://kit.svelte.dev/"
-              class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
+              class="font-normal text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
               target="_blank"
               rel="noreferrer">SvelteKit</a
             >
             and
             <a
               href="https://tailwindcss.com/"
-              class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
+              class="font-normal text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
               target="_blank"
               rel="noreferrer">Tailwind CSS</a
             >, deployed with
             <a
               href="https://vercel.com/"
-              class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
+              class="font-normal text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
               target="_blank"
               rel="noreferrer">Vercel</a
             >. All text is set in the
             <a
               href="https://fonts.google.com/specimen/Raleway"
-              class="font-medium text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
+              class="font-normal text-slate-400 hover:text-slate-300 focus-visible:text-slate-300"
               target="_blank"
               rel="noreferrer">Work Sans</a
             >

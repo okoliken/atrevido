@@ -1,9 +1,9 @@
 import type { Work, Project } from "$lib/types";
-import Netflix from "$lib/assets/net.png";
-import EWA from "$lib/assets/ewa.png";
+// import Netflix from "$lib/assets/net.png";
+// import EWA from "$lib/assets/ewa.png";
 import Ksbtech from "$lib/assets/ksbtech.png";
 import Oracle from "$lib/assets/oracle.png";
-import Coded from "$lib/assets/coded.png";
+import Spotify from "$lib/assets/spotify.png";
 import Dictionary from "$lib/assets/dictionary.png";
 import Dev from "$lib/assets/dev.png";
 import AudioPhile from "$lib/assets/audio.png"
@@ -119,5 +119,14 @@ export const personal_projects = [
       "FlutterWave"
     ],
     image: AudioPhile,
+  },
+  {
+    title: "Spotify clone",
+    growth: [],
+    url: "https://spotify-clone-murex-six.vercel.app/",
+    description:
+      "This application is powered by Spotify's API and enables users to log into their Spotify accounts. It allows them to access their playlists, discover the latest songs from their favorite artists, and explore many more features.",
+    stacks: ["Svelte","SvelteKit", "Typescript", "Sass", "Spotify API"],
+    image: Spotify,
   },
 ];
