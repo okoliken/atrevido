@@ -1,6 +1,6 @@
 import type { PageLoad } from "./$types";
 
-import { workHistory, projects, personal_projects } from "../utils/data";
+import { workHistory, personal_projects } from "../utils/data";
 
 export const load: PageLoad = () => {
   return {

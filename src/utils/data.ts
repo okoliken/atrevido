@@ -7,6 +7,7 @@ import Spotify from "$lib/assets/spotify.png";
 import Dictionary from "$lib/assets/dictionary.png";
 import Dev from "$lib/assets/dev.png";
 import AudioPhile from "$lib/assets/audio.png"
+import Positivus from "$lib/assets/positivus.png"
 
 export const workHistory: Work[] = [
   {
@@ -128,5 +129,15 @@ export const personal_projects = [
       "This application is powered by Spotify's API and enables users to log into their Spotify accounts. It allows them to access their playlists, discover the latest songs from their favorite artists, and explore many more features.",
     stacks: ["Svelte","SvelteKit", "Typescript", "Sass", "Spotify API"],
     image: Spotify,
+  },
+  {
+    title: "Positivus landing page",
+    growth: [],
+    url: "https://positivus-livid.vercel.app/",
+    description:
+      "Responsive Landing page build in progress",
+    stacks: ["Astro", 'Alpinejs', 'Tailwindcss', 'Figma Community'],
+    image: Positivus,
+    is_comming: true
   },
 ];

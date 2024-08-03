@@ -28,7 +28,7 @@
             href={url}
             target="_blank"
             rel="noreferrer"
-            aria-label="Frontend developer at Fundall"
+            aria-label={role}
           >
             <span
               class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"

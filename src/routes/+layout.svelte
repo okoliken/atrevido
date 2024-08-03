@@ -57,8 +57,8 @@
 
 <svelte:head>
   <meta
-  name="description"
-  content="I Build Inclusive and Accessible Web Experiences, One Line of Code at a Time."
+    name="description"
+    content="I Build Inclusive and Accessible Web Experiences, One Line of Code at a Time."
   />
   <meta content="Hello I am Jeff, I am a Frontend Software Developer" name="description">
   <title>Okoli Jahbuchim Jeff</title>
