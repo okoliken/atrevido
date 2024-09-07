@@ -4,10 +4,10 @@
   import Stack from "./Stack.svelte";
   export let projects: Project;
 
-  const { title, url, description, image, growth, stacks } = projects;
+  const { title, url, description, image, growth, stacks, is_comming } = projects;
 </script>
 
-<li class="mb-12">
+<li class:opacity-30={is_comming} class="mb-12">
   <div
     class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-40"
   >

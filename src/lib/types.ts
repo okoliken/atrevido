@@ -14,4 +14,5 @@ export interface Project {
 	growth?:string[];
 	url: string;
 	image:string;
+	is_comming?:boolean
 }

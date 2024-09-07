@@ -11,6 +11,24 @@ import Positivus from "$lib/assets/positivus.png"
 
 export const workHistory: Work[] = [
   {
+    duration: "June 03 - Present",
+    role: "Frontend Engineer",
+    companyName: "Apex Network Limited",
+    url: "https://apexnetwork.co",
+    description:
+    "I currently work as a frontend engineer at Apex Network, a fintech firm providing digital asset commerce, such as cryptocurrency and gift card exchanges. I collaborate with a dynamic team of engineers to build features and improve products, driving revenue and enhancing customer experience.",
+    stacks: ["TypeScript", "Vue" ,"Tailwind Css", "GSAP", "Figma", "Nuxt"],
+  },
+  {
+    duration: "Feb 2024 - August 2024",
+    role: "Frontend Engineer",
+    companyName: "Sterling Financial Holdings Company",
+    url: "https://sterling.ng",
+    description:
+    "I previously worked as a Frontend Engineer at Sterling Bank, developing and enhancing a core banking application using React, TypeScript, and Microfrontend architecture. I collaborated with backend teams to maintain secure data flow, optimized branch transaction features, and utilized Jira for effective task management and team communication.",
+    stacks: ["TypeScript", "React.js", "Tailwind", "Jira", "Figma", 'Micro-Frontend', 'Core Banking Solution'],
+  },
+  {
     duration: "Feb 2022 - Feb 2024",
     role: "Frontend Engineer",
     companyName: "Fundall",
@@ -27,24 +45,6 @@ export const workHistory: Work[] = [
       "Click up",
       "Figma",
     ],
-  },
-  {
-    duration: "Feb - May 2023",
-    role: "Frontend Engineer",
-    companyName: "Soft-Web Digital",
-    url: "https://www.softwebdigital.com",
-    description:
-      "At Softweb Digital, I was part of a collaborative development team focused on refining and maintaining client-facing frontend platforms, which led to a 50% enhancement in business operations. My deep understanding of user needs contributed to a 47% increase in revenue. Additionally, I played a crucial role in the launch of the KBSTECH gift card trading platform, demonstrating a commitment to innovation and client satisfaction.",
-    stacks: ["JavaScript", "TypeScript", "Vue 3", "Vuetify", "SCSS", "Figma"],
-  },
-  {
-    duration: "Oct 2022 - 2023",
-    role: "Frontend Engineer",
-    companyName: "Scelloo",
-    url: "https://scelloo.com",
-    description:
-      "At Scelloo, a technology company focused on supporting entrepreneurs and organizations, I worked alongside my team and QA testers to meet project deadlines consistently, leveraging Agile methodologies and tools like Jira to ensure efficiency and collaboration.",
-    stacks: ["JavaScript", "Vue 2", "Tailwind", "Jira", "Figma"],
   },
 ];
 
@@ -133,9 +133,9 @@ export const personal_projects = [
   {
     title: "Positivus landing page",
     growth: [],
-    url: "https://positivus-livid.vercel.app/",
+    url: "#",
     description:
-      "Responsive Landing page build in progress",
+      "build in progress",
     stacks: ["Astro", 'Alpinejs', 'Tailwindcss', 'Figma Community'],
     image: Positivus,
     is_comming: true

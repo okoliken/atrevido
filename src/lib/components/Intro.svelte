@@ -3,6 +3,9 @@
   let stacks = [
     "Html 5",
     "CSS 3",
+    "Tailwind-Css",
+    "HeadlessUI",
+    "Shadcn/ui",
     "JavaScript",
     "TypeScript",
     "Vue",
@@ -10,8 +13,6 @@
     "Pinia",
     "React",
     "Svelte",
-    "SvelteKit",
-    "Tailwind-Css",
     "Astro",
     "Tanstack Query",
     "VueUse",
@@ -39,9 +40,8 @@
   </div>
   <div>
     <p class="mb-4 text-left leading-6 text-gray-400 font-normal w-full">
-      Seasoned Front-end Engineer with 3+ years in Vue.js and React.js. Skilled
-      in creating responsive, user-centric web applications. Adept in modern
-      development practices, with a focus on quality and efficiency. Committed
+      Front End Developer specializing in Vue.js and React. Passionate about building scalable, responsive, and functional applications that provide seamless user experiences. 
+      Adept in modern development practices, with a focus on quality and efficiency. Committed
       to ongoing learning and collaboration to drive project success.
     </p>
 
