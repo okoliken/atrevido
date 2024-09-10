@@ -23,7 +23,7 @@ export const workHistory: Work[] = [
     duration: "Feb 2024 - August 2024",
     role: "Frontend Engineer",
     companyName: "Sterling Financial Holdings Company",
-    url: "https://sterling.ng",
+    url: "https://www.pulse.ng/business/domestic/sterling-completes-core-application-migration-leads-innovation-in-banking/wvq8zkf",
     description:
     "I previously worked as a Frontend Engineer at Sterling Bank, developing and enhancing a core banking application using React, TypeScript, and Microfrontend architecture. I collaborated with backend teams to maintain secure data flow, optimized branch transaction features, and utilized Jira for effective task management and team communication.",
     stacks: ["TypeScript", "React.js", "Tailwind", "Jira", "Figma", 'Micro-Frontend', 'Core Banking Solution'],
