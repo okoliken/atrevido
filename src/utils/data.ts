@@ -1,6 +1,6 @@
 import type { Work, Project } from "$lib/types";
 // import Netflix from "$lib/assets/net.png";
-// import EWA from "$lib/assets/ewa.png";
+import Unsplash from "$lib/assets/mini-unsplash.png";
 import Ksbtech from "$lib/assets/ksbtech.png";
 import Oracle from "$lib/assets/oracle.png";
 import Spotify from "$lib/assets/spotify.png";
@@ -76,7 +76,7 @@ export const personal_projects = [
     description:
       "Seamlessly search for words and uncover their meanings, all while enjoying the convenience of features designed to enhance your experience.",
     stacks: [
-      "Svelte4",
+      "Svelte 4",
       "Typescript",
       "Tailwind css",
       "Frontend Mentor",
@@ -127,8 +127,17 @@ export const personal_projects = [
     url: "https://spotify-clone-murex-six.vercel.app/",
     description:
       "This application is powered by Spotify's API and enables users to log into their Spotify accounts. It allows them to access their playlists, discover the latest songs from their favorite artists, and explore many more features.",
-    stacks: ["Svelte","SvelteKit", "Typescript", "Sass", "Spotify API"],
+    stacks: ["Svelte","SvelteKit", "Typescript", "SCSS", "Spotify API"],
     image: Spotify,
+  },
+  {
+    title: "Mini Unsplash clone",
+    growth: [],
+    url: "https://african-showcase.vercel.app/",
+    description:
+      "This Unsplash clone showcases a sleek, responsive design with a staggered photo grid and prominent search bar. It features photographer credits, image location data, and optimized loading. The app demonstrates skills in API integration, front-end development, and user experience design.",
+    stacks: ["Vue 3", "Typescript", "SCSS", "Unsplash API", "VueUse", "GSAP", "Masonry Grid"],
+    image: Unsplash,
   },
   {
     title: "Positivus landing page",
