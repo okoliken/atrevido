@@ -130,23 +130,23 @@ export const personal_projects = [
     stacks: ["Svelte","SvelteKit", "Typescript", "SCSS", "Spotify API"],
     image: Spotify,
   },
-  {
-    title: "Mini Unsplash clone",
-    growth: [],
-    url: "https://african-showcase.vercel.app/",
-    description:
-      "This Unsplash clone showcases a sleek, responsive design with a staggered photo grid and prominent search bar. It features photographer credits, image location data, and optimized loading. The app demonstrates skills in API integration, front-end development, and user experience design.",
-    stacks: ["Vue 3", "Typescript", "SCSS", "Unsplash API", "VueUse", "GSAP", "Masonry Grid"],
-    image: Unsplash,
-  },
-  {
-    title: "Positivus landing page",
-    growth: [],
-    url: "#",
-    description:
-      "build in progress",
-    stacks: ["Astro", 'Alpinejs', 'Tailwindcss', 'Figma Community'],
-    image: Positivus,
-    is_comming: true
-  },
+  // {
+  //   title: "Mini Unsplash clone",
+  //   growth: [],
+  //   url: "https://african-showcase.vercel.app/",
+  //   description:
+  //     "This Unsplash clone showcases a sleek, responsive design with a staggered photo grid and prominent search bar. It features photographer credits, image location data, and optimized loading. The app demonstrates skills in API integration, front-end development, and user experience design.",
+  //   stacks: ["Vue 3", "Typescript", "SCSS", "Unsplash API", "VueUse", "GSAP", "Masonry Grid"],
+  //   image: Unsplash,
+  // },
+  // {
+  //   title: "Positivus landing page",
+  //   growth: [],
+  //   url: "#",
+  //   description:
+  //     "build in progress",
+  //   stacks: ["Astro", 'Alpinejs', 'Tailwindcss', 'Figma Community'],
+  //   image: Positivus,
+  //   is_comming: true
+  // },
 ];
